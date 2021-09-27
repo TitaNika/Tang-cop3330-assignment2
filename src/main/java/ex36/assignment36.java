@@ -14,7 +14,7 @@ class assignment36 {
 
         Scanner scan = new Scanner(System.in);
 
-        ArrayList<Integer> numbers = new ArrayList<>();
+        ArrayList <Integer> numbers = new ArrayList<>();
         String numentry;
 
         do {
@@ -48,7 +48,7 @@ class assignment36 {
 
     }
 
-    public static double average(ArrayList<Integer> numbers) {
+    public static double average (ArrayList<Integer> numbers) {
 
         int total = 0;
 
@@ -62,7 +62,7 @@ class assignment36 {
 
     }
 
-    public static int max(ArrayList<Integer> numbers) {
+    public static int max (ArrayList<Integer> numbers) {
 
         int max= numbers.get(0);
 
@@ -75,7 +75,7 @@ class assignment36 {
         return max;
     }
 
-    public static int min(ArrayList<Integer> numbers) {
+    public static int min (ArrayList<Integer> numbers) {
 
         int min= numbers.get(0);
 
@@ -89,7 +89,7 @@ class assignment36 {
         return min;
     }
 
-    public static double std(ArrayList<Integer> numbers) {
+    public static double std (ArrayList<Integer> numbers) {
 
         double mean = average(numbers);
 

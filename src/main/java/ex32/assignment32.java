@@ -34,20 +34,24 @@ class assignment32 {
                 secretNum = (int) (Math.random() * 1000 + 1);
 
             System.out.print("I have my number. What's your guess?: ");
-            do{
+            do {
 
                 guess = scan.nextInt();
                 total++;
 
-                if (guess == secretNum)
-                {
-                    System.out.println("You got it in "+total+" guesses!");
-                }
-                else if (guess < secretNum)
+                if (guess == secretNum) {
+                    System.out.println("You got it in " + total + " guesses!");
+                } else if (guess < secretNum)
 
                     System.out.println("Too low. Guess again: ");
 
                 else System.out.println("Too high. Guess again: ");
+
+                if (guess != secretNum) {
+                    System.out.println("WRONG!");
+                }
+
+
 
             } while (guess != secretNum);
 

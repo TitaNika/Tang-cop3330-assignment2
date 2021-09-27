@@ -30,7 +30,7 @@ class assignment34 {
 
     public static void Employees(ArrayList<String> employees) {
 
-        System.out.println("There are now "+employees.size()+" employees: ");
+        System.out.println("There are now " + employees.size() + " employees: ");
 
         for (String employee:employees)
         {

@@ -19,7 +19,7 @@ class assignment38 {
 
         String[] list = data.split(" ");
 
-        Integer[] even = filterEven(list);
+        Integer[] even = filterEvenNumbers(list);
 
         System.out.print("The even numbers are ");
 
@@ -39,7 +39,7 @@ class assignment38 {
         }
     }
 
-    public static Integer[] filterEven(String[] list) {
+    public static Integer[] filterEvenNumbers(String[] list) {
 
         ArrayList<Integer> even = new ArrayList<>();
 

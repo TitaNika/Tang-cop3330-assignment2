@@ -40,19 +40,19 @@ class assignment37 {
 
         ArrayList<Character> chars = new ArrayList<>();
 
-        for(int i = 0; i < specials; i++){
+        for (int i = 0; i < specials; i++){
 
             chars.add(specialCharacters.charAt(random.nextInt(specialCharacters.length())));
 
         }
 
-        for(int i = 0; i < number; i++){
+        for (int i = 0; i < number; i++){
 
             chars.add(numbers.charAt(random.nextInt(numbers.length())));
 
         }
 
-        for(int i = chars.size()-1; i < length; i++){
+        for (int i = chars.size()-1; i < length; i++){
 
             chars.add(letters.charAt(random.nextInt(letters.length())));
 
@@ -62,7 +62,7 @@ class assignment37 {
 
         StringBuilder password = new StringBuilder();
 
-        for(Character string : chars) {
+        for (Character string : chars) {
 
             password.append(string);
 

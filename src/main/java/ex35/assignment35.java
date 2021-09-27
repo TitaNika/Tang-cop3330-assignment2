@@ -24,6 +24,7 @@ class assignment35 {
 
             if(!name.isEmpty())
                 nameList.add(name);
+
         } while(!name.isEmpty());
 
         Random random = new Random();

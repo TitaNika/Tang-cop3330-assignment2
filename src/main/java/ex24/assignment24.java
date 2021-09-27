@@ -9,7 +9,7 @@ import java.util.*;
 
 class assignment24 {
 
-    static boolean Anagram(String str1, String str2) {
+    static boolean Anagram (String str1, String str2) {
 
         boolean status;
 
@@ -46,7 +46,7 @@ class assignment24 {
         System.out.print("Enter the second string: ");
         String string2 = scan.nextLine();
 
-        if(Anagram(string1,string2))
+        if (Anagram(string1,string2))
 
             System.out.println(string1 + " and " + string2 + " are anagrams.");
 
