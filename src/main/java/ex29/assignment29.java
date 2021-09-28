@@ -30,5 +30,6 @@ class assignment29 {
             }
 
         } while (!flag);
+
     }
 }

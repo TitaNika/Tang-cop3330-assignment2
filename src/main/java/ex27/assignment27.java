@@ -41,11 +41,9 @@ class assignment27 {
         if (first && last && zipcode && id) {
 
             database = "There were no errors found.";
-
         }
 
         System.out.println(database);
-
     }
 
     public static boolean checkFirstName(String firstName) {
@@ -100,9 +98,7 @@ class assignment27 {
                 status = false;
             }
 
-        }
-
-        catch (Exception e) {
+        } catch (Exception e) {
 
             database = database + "The zipcode must be a 5 digit number.\n";
             status = false;
@@ -115,7 +111,7 @@ class assignment27 {
 
     public static boolean checkID(String employeeID) {
 
-        String pattern = "[a-zA-Z]{2}[-][0-9]{4}";
+        String pattern = "[a-z,A-Z]{2}[-][0-9]{4}";
 
         if (!Pattern.matches(pattern, employeeID)) {
 
@@ -126,5 +122,4 @@ class assignment27 {
 
         return true;
     }
-
 }

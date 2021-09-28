@@ -38,7 +38,7 @@ class assignment37 {
 
         Random random = new Random();
 
-        ArrayList<Character> chars = new ArrayList<>();
+        ArrayList <Character> chars = new ArrayList<>();
 
         for (int i = 0; i < specials; i++){
 

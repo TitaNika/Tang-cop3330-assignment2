@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 class assignment36 {
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
 
         Scanner scan = new Scanner(System.in);
 
@@ -81,7 +81,7 @@ class assignment36 {
 
         for (int num: numbers) {
 
-            if(num < min)
+            if (num < min)
                 min = num;
 
         }

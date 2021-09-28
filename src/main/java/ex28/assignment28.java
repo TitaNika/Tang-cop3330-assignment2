@@ -14,20 +14,20 @@ class assignment28 {
         Scanner scan = new Scanner(System.in);
 
         {
-            int i, n, s = 0;
+            int i, num, sum = 0;
 
             double total;
 
             for (i = 0; i < 5; i++) {
 
                 System.out.println("Enter a number : ");
-                n = scan.nextInt();
+                num = scan.nextInt();
 
-                s += n;
+                sum += num;
             }
-            total = s;
-            System.out.println("The total is " + total);
 
+            total = sum;
+            System.out.println("The total is " + total);
         }
     }
 }

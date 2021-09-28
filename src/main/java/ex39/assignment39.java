@@ -5,7 +5,5 @@
 
 package ex39;
 
-public class assignment39{
-
-
+public class assignment39 {
 }

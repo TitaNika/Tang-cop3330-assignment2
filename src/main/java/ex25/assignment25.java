@@ -9,7 +9,7 @@ import java.util.*;
 
 class assignment25 {
 
-    public static void passwordStrength(String input)
+    public static void passwordValidator(String input)
     {
         int length = input.length();
 
@@ -62,7 +62,8 @@ class assignment25 {
         System.out.print("Enter Password: ");
         input = scan.nextLine();
 
-        passwordStrength(input);
+        passwordValidator(input);
+
     }
 
 }

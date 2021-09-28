@@ -23,7 +23,7 @@ class assignment38 {
 
         System.out.print("The even numbers are ");
 
-        for(int i=0; i<even.length; i++)
+        for (int i=0; i<even.length; i++)
         {
             if(i < even.length-1){
 
@@ -53,10 +53,10 @@ class assignment38 {
             }
         }
 
-        Integer[] arr = new Integer[even.size()];
+        Integer[] array = new Integer[even.size()];
 
-        arr = even.toArray(arr);
+        array = even.toArray(array);
 
-        return arr;
+        return array;
     }
 }
