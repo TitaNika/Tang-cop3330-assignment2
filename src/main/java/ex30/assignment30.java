@@ -7,7 +7,7 @@ package ex30;
 
 class assignment30 {
 
-    public static void main(String[] args) {
+    public static void multiTable() {
 
         for(int i=1; i<=12 ;i++)
         {
@@ -17,5 +17,9 @@ class assignment30 {
             }
             System.out.println();
         }
+    }
+
+    public static void main(String[] args) {
+        multiTable();
     }
 }
