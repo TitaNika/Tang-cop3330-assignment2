@@ -10,7 +10,7 @@ import java.util.Random;
 
 class assignment33 {
 
-    public static void main(String[] args) {
+    public static void eightBall() {
 
         String[] responses = {"Yes.","No.","Maybe.","Ask again later."};
 
@@ -29,4 +29,10 @@ class assignment33 {
         System.out.println(response);
 
     }
-}
+
+
+    public static void main(String[] args) {
+
+    eightBall();
+    }
+    }

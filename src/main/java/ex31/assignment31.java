@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 class assignment31 {
 
-    public static void main(String[] args) {
+    public static void Beat() {
 
         Scanner scan = new Scanner(System.in);
 
@@ -43,5 +43,12 @@ class assignment31 {
 
             System.out.println(intensity + "%" + "\t\t" + (int)Math.ceil(rate) + " bpm");
         }
+    }
+
+
+    public static void main(String[] args){
+
+    Beat();
+
     }
 }

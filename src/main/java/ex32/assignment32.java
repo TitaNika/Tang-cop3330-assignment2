@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 class assignment32 {
 
-    public static void main(String[] args) {
+    public static void Guess() {
 
         System.out.println("--Let's play Guess the Number!--");
 
@@ -64,6 +64,12 @@ class assignment32 {
                 System.out.println("Awwww, that's too bad! See ya next time!");
                 break;
         }
+
+    }
+
+    public static void main(String[] args){
+
+    Guess();
 
     }
 }

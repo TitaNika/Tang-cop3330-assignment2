@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 class assignment28 {
 
-    public static void main(String[] args) {
+    public static void Calculator() {
 
         Scanner scan = new Scanner(System.in);
 
@@ -30,4 +30,9 @@ class assignment28 {
             System.out.println("The total is " + total);
         }
     }
-}
+
+    public static void main(String[] args) {
+
+        Calculator();
+
+    }}

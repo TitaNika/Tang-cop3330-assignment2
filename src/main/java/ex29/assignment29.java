@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 class assignment29 {
 
-    public static void main(String[] args) {
+    public static void Return() {
 
         Scanner scan = new Scanner(System.in);
 
@@ -32,4 +32,9 @@ class assignment29 {
         } while (!flag);
 
     }
+
+    public static void main(String[] args) {
+
+    Return();
+}
 }

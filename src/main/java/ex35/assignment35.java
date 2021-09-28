@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 class assignment35 {
 
-    public static void main(String[] args) {
+    public static void Winner() {
 
         Scanner input = new Scanner(System.in);
 
@@ -33,5 +33,9 @@ class assignment35 {
         System.out.println("The winner is... " + nameList.get(randomWinner) + "!");
     }
 
-}
+    public static void main(String[] args) {
 
+    Winner();
+
+    }
+    }
